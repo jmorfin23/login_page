@@ -1,0 +1,100 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  /* box-sizing: border-box; */
+}
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: sans-serif;
+}
+/********************************
+       Header Styles
+*********************************/
+.logo {
+  height: 75px;
+  width: 300px;
+  max-width: 100%;
+  /* min-width: 100%; */
+  max-height: 20%;
+  /* min-height: 20%; */
+  display: block;
+  margin: 25px auto;
+}
+img {
+  width: inherit;
+}
+
+/**********************************
+    Main styles
+***********************************/
+
+.card {
+  text-align: justify;
+  padding: 25px;
+}
+label {
+  padding-top: 0px;
+  padding-bottom: 0px;
+  font-size: 12px;
+  font-weight:bold;
+}
+label[for=password]::after {
+  content: "        Forgot your password?";
+  color: #0056b3;
+}
+input {
+  border-radius: 4px;
+  padding: 2px;
+}
+.sign-in {
+  padding: 5px;
+  margin-top: 20px;
+  background-color: #f0c14b;
+  font-family:sans-serif;
+  border-color: #a88734 #9c7e31 #846a29;
+  font-size: 14px;
+}
+
+.para {
+  font-size: 12px;
+  padding-top: 14px;
+  font-family: sans-serif;
+}
+.create-account {
+  border-color: #adb1b8 #a2a6ac #8d9096;
+  border-style: solid;
+  border-width: 1px;
+  background: #e7e9ec;
+  font-size: 13px;
+  margin-top: 15px;
+  padding: 5px;
+}
+
+
+/**********************************
+    Footer styles
+***********************************/
+footer {
+
+}
+.f-container {
+  color: red;
+  text-align: center;
+  margin: 40px;
+}
+.foot p {
+  font-size: 11px;
+  padding: 13px;
+  color: black;
+}
+
+
+
+/* @media only screen and (max-width: 750px) {
+  img {
+    width: 100%;
+    margin: 25px auto;
+
+  }
+} */
